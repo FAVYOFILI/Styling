@@ -1,41 +1,64 @@
-* { 
-    padding : 0;
-    margin : 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-    body {
-      width: 100%;
-      height: 100vh;
-      background-color: lightgray;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-    .cardHolder {
-      width: 300px;
-      height: 400px;
-      background-color: white;
-      border-radius: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    .imgHolder {
-      width: 150px;
-      height: 150px;
-      background-color: gray;
-      border-radius: 50%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: -200px;
-    }
-    .nameHolder {
-      font-weight: 700;
-      font-size: 20px;
-      margin-top: 30px;
-      font-family: cursive;
-    }
-  </style>
-</html>
+.cardHolder {
+  width: 300px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.imgHolder {
+  width: 150px;
+  height: 150px;
+  background-color: gray;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -200px;
+}
+.imgHolder img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.nameHolder {
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: cursive;
+}
+.bioHolder {
+  width: 90%;
+  text-align: justify;
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.815);
+  font-family: Poppins;
+}
+
+.stackHolder {
+  width: 90%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.815);
+  font-family: Poppins;
+  font-weight: 700;
+}

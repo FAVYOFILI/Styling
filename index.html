@@ -6,14 +6,16 @@
   </head>
   <body class="body">
     <div class="cardHolder">
-      <div class="imgHolder">imgHolder</div>
+      <div class="imgHolder">
+        <img src="./favy.jpg" alt="My" />
+      </div>
       <div class="nameHolder">OFILI FAVOUR</div>
-      <div class="bioHolder">Favy Ofili 
-        Learning Full-stack Development At Kode 10X
-        I have passion for TECH SKILLS and am making great efforts
-         in getting better at coding and being a great software developer.
       <div class="stackHolder">STUDENT AT KODE 10X</div>
-    </div>
+      <div class="bioHolder">
+        Favy Ofili Learning Full-stack Development At Kode 10X I have passion
+        for TECH SKILLS and am making great efforts in getting better at coding
+        and being a great software developer.
+      </div>
   </body>
   <style>
     body {
@@ -23,6 +25,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
     }
 
     .cardHolder {
@@ -45,11 +48,35 @@
       align-items: center;
       margin-top: -200px;
     }
+    .imgHolder img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      object-fit: cover;
+    }
     .nameHolder {
       font-weight: 700;
       font-size: 20px;
-      margin-top: 30px;
+      margin-top: 10px;
       font-family: cursive;
+    }
+    .bioHolder {
+      width: 90%;
+      text-align: justify;
+      margin-top: 20px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.815);
+      font-family: Poppins;
+    }
+
+    .stackHolder {
+      width: 90%;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.815);
+      font-family: Poppins;
+      font-weight: 700;
     }
   </style>
 </html>
