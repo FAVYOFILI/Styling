@@ -269,9 +269,14 @@
   margin: 20px;
   border-radius: 20px;
   display: flex;
+  border: none;
 }
 
 .activeCardTitle {
+  font-size: large;
+  font-weight: 500;
+  font-family: Poppins;
+  align-items: center;
 }
 
 .actioncardsub {
@@ -368,13 +373,23 @@
   justify-content: start;
   margin-top: 0px;
 }
-.pricingCard {
+.pricing {
   height: 320px;
   width: 300px;
   background-color: red;
   margin: 30px;
   border-radius: 10px;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 500;
 }
+
+.pricingbutton:hover {
+  transition: all 450ms;
+  background-color: white;
+  color: black;
+}
+
 .emailMain {
   width: 100%;
   height: 400px;
