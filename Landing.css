@@ -309,9 +309,12 @@
 .courseCard {
   height: 400px;
   width: 300px;
-  background-color: red;
+  background-color: greenyellow;
   margin: 30px;
   border-radius: 10px;
+}
+
+.courseimg {
 }
 
 .viewAllCoursesButton {
@@ -376,12 +379,10 @@
 .pricing {
   height: 320px;
   width: 300px;
-  background-color: red;
+  background-color: green;
   margin: 30px;
   border-radius: 10px;
   font-size: 14px;
-  font-family: Poppins;
-  font-weight: 500;
 }
 
 .pricingbutton:hover {
